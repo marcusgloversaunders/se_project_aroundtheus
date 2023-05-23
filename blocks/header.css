@@ -1,0 +1,35 @@
+.header {
+  margin: 0 auto;
+  max-width: 882px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  margin-bottom: 40px;
+}
+
+.header__logo {
+  max-width: 173px;
+  padding-top: 45px;
+  padding-bottom: 41px;
+}
+
+@media screen and (max-width: 919px) {
+  .header {
+    max-width: calc(100% - 40px);
+    margin-bottom: 42px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .header {
+    max-width: calc(100%);
+  }
+  .header__logo {
+    padding-left: 27px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .header__logo {
+    padding-top: 28px;
+    padding-bottom: 32px;
+    max-width: 126px;
+  }
+}

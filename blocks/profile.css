@@ -1,0 +1,114 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 882px;
+  margin: auto;
+  margin-bottom: 51px;
+}
+
+.profile__bio {
+  display: flex;
+  align-items: center;
+}
+
+.profile__avatar {
+  border-radius: 100%;
+  width: 120px;
+  margin-right: 30px;
+}
+
+.profile__username {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.14;
+  margin: 0;
+  padding-bottom: 8px;
+}
+.profile__occupation {
+  font-weight: 400;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.profile__edit-button {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0);
+  background: url("../images/pencil.svg") no-repeat center / auto 10px;
+  margin-left: 18px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid white;
+  opacity: 1;
+}
+.profile__add-button {
+  background-color: rgba(0, 0, 0, 0);
+  background: url("../images/plus-icon.svg") no-repeat center / auto 22px;
+  border-width: 2px;
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.profile__add-button:hover,
+.profile__edit-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 920px) {
+  .profile {
+    max-width: calc(100% - 40px);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile__info {
+    margin-bottom: 36px;
+  }
+  .profile__avatar {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .profile__bio {
+    flex-direction: column;
+  }
+
+  .profile__username {
+    padding-bottom: 14px;
+  }
+
+  .profile__add-button {
+    background-size: auto 16px;
+    width: 282px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .profile {
+    margin-bottom: 36px;
+  }
+  .profile__username {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .profile__occupation {
+    font-size: 14px;
+    line-height: 0.8;
+  }
+  .profile__edit-button {
+    background-size: auto 7.5px;
+    width: 18px;
+    height: 18px;
+  }
+}

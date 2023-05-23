@@ -1,0 +1,42 @@
+.card__image {
+  width: 282px;
+  height: 282px;
+  border-radius: 10px 10px 0px 0px;
+  display: block;
+}
+
+.card__description {
+  background-color: white;
+  min-height: 79px;
+  border-radius: 0px 0px 10px 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 900;
+}
+.card__title {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  color: #000;
+  margin-left: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.card__like-button {
+  background: none;
+  padding: 0;
+  border: 0;
+}
+
+.card__heart {
+  margin-right: 20px;
+  width: 21px;
+}
+
+.card__heart:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
