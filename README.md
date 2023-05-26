@@ -23,4 +23,4 @@ This is the third project of the Software Engineer program at Practicum by Yande
 
 ## Link to the live-hosted project
 
-https://github.com/marcusgloversaunders/se_project_aroundtheus
+https://marcusgloversaunders.github.io/se_project_aroundtheus/
