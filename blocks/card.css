@@ -17,9 +17,9 @@
 .card__title {
   font-size: 24px;
   font-weight: 900;
-  margin: 0;
   color: #000;
   margin-left: 20px;
+  margin-bottom: 25px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
